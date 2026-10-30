@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>김태훈 · 에이아이엠(A.I.M) 대표</title>
+<meta name="description" content="비즈니스 스케일업 AX 컨설팅 · AI 직무교육. 버튼 한 번으로 연락처를 저장하세요.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://kimtaehun6039.github.io/card/">
+<meta property="og:title" content="김태훈 · 에이아이엠(A.I.M) 대표">
+<meta property="og:description" content="비즈니스 스케일업 AX 컨설팅 · AI 직무교육 · 전-LG/SKT 그룹임원">
+<meta name="theme-color" content="#0D1A35">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230D1A35'/%3E%3Ctext x='32' y='41' font-family='Arial,sans-serif' font-weight='700' font-size='22' text-anchor='middle' fill='%23C8DCF5'%3EAIM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+/* Layout: one-column mobile card — navy brand band (from the AIM deck) with the save button bridging into the details below */
+:root {
+  --navy: #0D1A35;
+  --pale: #C8DCF5;
+  --gold: #D4AA55;      /* gold on navy */
+  --gold-ink: #B07D12;  /* gold on light surfaces */
+  --bg: #F2F5FA;
+  --surface: #FFFFFF;
+  --ink: #0D1A35;
+  --muted: #5A6780;
+  --line: #DCE3EE;
+  --btn: #1755A6;
+  --btn-ink: #FFFFFF;
+  --font: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #070F22; --surface: #0F1C38; --ink: #E7EDF7; --muted: #9AA8C2; --line: #1E2E50;
+    --btn: #2E6DC9; --gold-ink: #D4AA55;
+    color-scheme: dark;
+  }
+}
+[hidden] { display: none !important; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.5;
+  word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
+}
+h1, h2, p, ul { margin: 0; }
+
+.card { max-width: 440px; margin: 0 auto; background: var(--bg); }
+
+.hero {
+  background:
+    radial-gradient(120% 90% at 100% 0%, rgba(46, 109, 201, .45), transparent 60%),
+    var(--navy);
+  color: #FFFFFF;
+  padding: calc(env(safe-area-inset-top, 0px) + 40px) max(24px, env(safe-area-inset-right, 0px)) 64px max(24px, env(safe-area-inset-left, 0px));
+}
+.brand {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .14em;
+  color: var(--pale);
+}
+.brand span { color: var(--gold); margin-left: .35em; }
+h1 {
+  margin-top: 30px;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: -.02em;
+  line-height: 1.1;
+}
+.role { margin-top: 8px; font-size: 18px; font-weight: 500; color: var(--pale); }
+.rule { width: 36px; height: 3px; margin-top: 22px; background: var(--gold); }
+
+.body {
+  display: grid;
+  gap: 22px;
+  padding: 0 max(20px, env(safe-area-inset-right, 0px)) 8px max(20px, env(safe-area-inset-left, 0px));
+  margin-top: -30px;
+}
+
+.inapp {
+  background: var(--surface);
+  border: 1px solid var(--gold-ink);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: grid;
+  gap: 10px;
+  font-size: 14px;
+}
+.inapp a {
+  justify-self: start;
+  color: var(--btn);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.save {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 60px;
+  border-radius: 14px;
+  background: var(--btn);
+  color: var(--btn-ink);
+  font-size: 19px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(13, 26, 53, .28);
+  -webkit-tap-highlight-color: transparent;
+}
+.save:active { transform: translateY(1px); box-shadow: 0 4px 12px rgba(13, 26, 53, .3); }
+.save:focus-visible, .act:focus-visible, .inapp a:focus-visible { outline: 3px solid var(--gold-ink); outline-offset: 3px; }
+.hint { margin-top: -10px; font-size: 14px; color: var(--muted); text-align: center; text-wrap: balance; }
+
+.rows {
+  list-style: none;
+  padding: 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+}
+.rows li {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-height: 58px;
+  padding: 10px 14px 10px 16px;
+}
+.rows li + li { border-top: 1px solid var(--line); }
+.k { font-size: 13px; color: var(--muted); }
+.v { font-size: 16px; font-weight: 600; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.act {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--btn);
+  text-decoration: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 7px 14px;
+}
+
+.about h2 { font-size: 13px; font-weight: 600; letter-spacing: .04em; color: var(--muted); margin-bottom: 12px; }
+.about ul { list-style: none; padding: 0; display: grid; gap: 10px; }
+.about li { display: flex; gap: 12px; align-items: baseline; font-size: 16px; }
+.about li::before {
+  content: "";
+  flex: none;
+  width: 6px;
+  height: 6px;
+  background: var(--gold-ink);
+  transform: translateY(-3px) rotate(45deg);
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+  padding: 28px 16px calc(env(safe-area-inset-bottom, 0px) + 28px);
+}
+
+@media (min-width: 520px) {
+  .card { margin-top: 48px; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(13, 26, 53, .14); padding-bottom: 28px; }
+  .hero { padding-top: 44px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .save:active { transform: none; }
+}
+</style>
+</head>
+<body>
+<main class="card">
+  <header class="hero">
+    <p class="brand">에이아이엠<span>A.I.M</span></p>
+    <h1>김태훈</h1>
+    <p class="role">대표</p>
+    <div class="rule" aria-hidden="true"></div>
+  </header>
+
+  <div class="body">
+    <a class="save" id="saveBtn" href="kimtaehun.vcf" type="text/vcard">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-3.9 3.1-7 7-7s7 3.1 7 7"/><path d="M19 8v6M16 11h6"/></svg>
+      연락처 저장
+    </a>
+    <p class="hint" id="hint">휴대폰에서 누르면 회사명, 이름, 직함, 전화번호, 이메일, 메모가 한 번에 저장됩니다.</p>
+
+    <div class="inapp" id="inapp" hidden>
+      <p id="inappMsg">앱 안의 브라우저에서는 연락처 저장이 안 될 수 있어요. 기본 브라우저로 열어 주세요.</p>
+      <a id="inappBtn" href="#" hidden>기본 브라우저로 열기 →</a>
+    </div>
+
+    <ul class="rows">
+      <li><span class="k">휴대폰</span><span class="v">010-2699-6039</span><a class="act" href="tel:010-2699-6039">전화</a></li>
+      <li><span class="k">이메일</span><span class="v">ngng6039@gmail.com</span><a class="act" href="mailto:ngng6039@gmail.com">메일</a></li>
+      <li><span class="k">회사</span><span class="v">에이아이엠(A.I.M)</span></li>
+    </ul>
+
+    <section class="about" aria-labelledby="about-h">
+      <h2 id="about-h">소개</h2>
+      <ul>
+        <li>비즈니스 스케일업 AX 컨설팅</li>
+        <li>AI 직무교육</li>
+        <li>전-LG/SKT 그룹임원</li>
+        <li>4개사 자문위원 활동중</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>© 에이아이엠(A.I.M)</footer>
+</main>
+
+<script>
+(function () {
+  var ua = navigator.userAgent || '';
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  var isAndroid = /Android/i.test(ua);
+  var hint = document.getElementById('hint');
+
+  if (isIOS) hint.textContent = '누르면 연락처 화면이 열립니다. ‘새로운 연락처 생성’을 누르면 끝.';
+  else if (isAndroid) hint.textContent = '누르면 연락처 파일을 받습니다. 받은 파일을 열고 ‘저장’을 누르면 끝.';
+
+  // KakaoTalk, Naver, Instagram and similar in-app browsers often can't hand a .vcf to the Contacts app
+  var inApp = /KAKAOTALK|NAVER\(inapp|Instagram|FBAN|FBAV|FB_IAB|Line\/|DaumApps|BAND\//i.test(ua);
+  if (!inApp) return;
+
+  var box = document.getElementById('inapp');
+  var msg = document.getElementById('inappMsg');
+  var btn = document.getElementById('inappBtn');
+  var here = location.href;
+
+  if (/KAKAOTALK/i.test(ua)) {
+    btn.href = 'kakaotalk://web/openExternal?url=' + encodeURIComponent(here);
+    btn.hidden = false;
+  } else if (isAndroid) {
+    btn.href = 'intent://' + here.replace(/^https?:\/\//, '') + '#Intent;scheme=https;package=com.android.chrome;end';
+    btn.textContent = 'Chrome으로 열기 →';
+    btn.hidden = false;
+  } else if (isIOS) {
+    msg.textContent = '앱 안의 브라우저에서는 연락처 저장이 안 될 수 있어요. 메뉴(···)에서 ‘Safari로 열기’를 눌러 주세요.';
+  }
+  box.hidden = false;
+})();
+</script>
+</body>
+</html>
